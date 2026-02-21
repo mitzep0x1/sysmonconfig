@@ -1073,6 +1073,9 @@
     <RuleGroup groupRelation="or">
       <ImageLoad onmatch="exclude">
         <Rule groupRelation="and">
+          <Image condition="begin with">C:\Program Files\ATERA Networks\AteraAgent\Agent\</Image>
+        </Rule>
+        <Rule groupRelation="and">
           <Image condition="is">C:\Windows\System32\cscript.exe</Image>
           <OriginalFileName condition="is">scrobj.dll</OriginalFileName>
         </Rule>
